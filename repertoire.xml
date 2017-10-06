@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<repertoire>
+  <contact id="1" color="red">
+    <firstname>Stan</firstname>
+    <name>Marsh</name>
+    <emails>
+      <email type="pro">stan.marsh@etu.univ-southpark.com</email>
+      <email type="perso">stan.marsh@gmail.com</email>
+    </emails>
+    <phones>
+      <phone>2564-256</phone>
+    </phones>
+  </contact>
+  <contact id="2" color="green">
+    <firstname>Kenny</firstname>
+    <name>McCormick</name>
+    <emails>
+      <email type="perso">kenny.mccormick@gmail.com</email>
+    </emails>
+    <phones>
+      <phone>6564-256</phone>
+    </phones>
+  </contact>
+</repertoire>
