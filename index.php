@@ -31,7 +31,7 @@ foreach($contactList as $contact) {
      <?php
      $emailList = $contact->getElementsByTagName("email");
      foreach ($emailList as $email) { ?>
-       <?= $email->nodeValue ?><br/>
+       <?= $email->nodeValue ?><br />
      <?php } ?>
    </div>
   </div>
