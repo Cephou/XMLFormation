@@ -30,9 +30,18 @@ foreach($contactList as $contact) {
    <div class="card-action">
      <?php
      $emailList = $contact->getElementsByTagName("email");
-     foreach ($emailList as $email) { ?>
-       <?= $email->nodeValue ?><br />
-     <?php } ?>
+     foreach ($emailList as $email) {
+       echo '<div class="valign-wrapper">
+        <i class="material-icons grey-text contact-icon">email</i> &nbsp;'. $email->nodeValue .
+        '</div>';
+     }
+     $phoneList = $contact->getElementsByTagName("phone");
+     foreach ($phoneList as $phone) {
+       echo '<div class="valign-wrapper">
+        <i class="material-icons grey-text contact-icon">phone</i> &nbsp;'. $phone->nodeValue .
+        '</div>';
+     }
+     ?>
    </div>
   </div>
 </div>

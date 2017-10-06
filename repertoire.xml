@@ -21,4 +21,14 @@
       <phone>6564-256</phone>
     </phones>
   </contact>
+  <contact id="3" color="brown">
+    <firstname>Eric</firstname>
+    <name>Cartman</name>
+    <emails>
+      <email type="perso">eric.cartman@gmail.com</email>
+    </emails>
+    <phones>
+      <phone>464-256</phone>
+    </phones>
+  </contact>
 </repertoire>
