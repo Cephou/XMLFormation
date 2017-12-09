@@ -8,12 +8,12 @@
 $dom = new DomDocument();
 $dom->load("repertoire.xml");
 
-// if (!$dom->validate()) {
-//   echo "Not validated";
-//   return false;
-// } else {
-//   echo "Validated";
-// }
+if (!$dom->schemaValidate("schema.xsd")) {
+  echo "Not validated";
+  return false;
+} else {
+  echo "Validated";
+}
 
 $contactList = $dom->getElementsByTagName("contact");
 foreach($contactList as $contact) {

@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
-<repertoire>
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<repertoire xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="notebook.xsd">
+
   <contact id="1" color="red">
     <firstname>Stan</firstname>
     <name>Marsh</name>
@@ -31,4 +32,5 @@
       <phone>464-256</phone>
     </phones>
   </contact>
+
 </repertoire>

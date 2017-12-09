@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!-- Elément racine -->
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <!-- Rappels de syntaxe
+
+    Elements simple : <xsd:element name="nom_de_l'élément_simple" type="xsd:type_de_l'élément_simple" />
+    Element
+    
+  -->
+
+  <!-- lE CODE CI DESSOUS DEVRA ÊTRE RETIRE POUR L'EXERCICE -->
+
+
+</xsd:schema>
