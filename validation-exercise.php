@@ -6,9 +6,9 @@
 <?php
 
 $dom = new DomDocument();
-$dom->load("schema-exercise.xml");
+$dom->load("xml/schema-exercise.xml");
 
-if (!$dom->schemaValidate("schema-exercise.xsd")) {
+if (!$dom->schemaValidate("schema/schema-exercise.xsd")) {
   echo "Not validated";
   return false;
 } else {
