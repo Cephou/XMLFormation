@@ -3,7 +3,7 @@
 
   <contact>
     <firstname>Stan</firstname>
-    <name>Marsh</name>
+    <lastname>Marsh</lastname>
     <emails>
       <email type="pro">stan.marsh@etu.univ-southpark.com</email>
       <email type="perso">stan.marsh@gmail.com</email>
@@ -11,7 +11,7 @@
   </contact>
   <contact>
     <firstname>Kenny</firstname>
-    <name>McCormick</name>
+    <lastname>McCormick</lastname>
     <emails>
       <email type="pro">kenny.mccormick@gmail.com</email>
       <email type="perso">kenny.mccormick@gmail.com</email>

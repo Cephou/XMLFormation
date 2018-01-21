@@ -40,14 +40,14 @@
   </xsd:element>
 
   <xsd:element name="firstname" type="xsd:string"></xsd:element>
-  <xsd:element name="name" type="xsd:string"></xsd:element>
+  <xsd:element name="lastname" type="xsd:string"></xsd:element>
 
   <!-- Balise contact -->
   <xsd:element name="contact">
     <xsd:complexType>
       <xsd:sequence>
         <xsd:element ref="firstname"/>
-        <xsd:element ref="name"/>
+        <xsd:element ref="lastname"/>
         <xsd:element ref="emails"/>
       </xsd:sequence>
     </xsd:complexType>

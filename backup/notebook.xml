@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<repertoire xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="notebook.xsd">
+
+  <contact id="1" color="red">
+    <firstname>Stan</firstname>
+    <lastname>Marsh</lastname>
+    <emails>
+      <email type="pro">stan.marsh@etu.univ-southpark.com</email>
+      <email type="perso">stan.marsh@gmail.com</email>
+    </emails>
+    <phones>
+      <phone>2564-256</phone>
+    </phones>
+  </contact>
+  <contact id="2" color="green">
+    <firstname>Kenny</firstname>
+    <lastname>McCormick</lastname>
+    <emails>
+      <email type="perso">kenny.mccormick@gmail.com</email>
+    </emails>
+    <phones>
+      <phone>6564-256</phone>
+    </phones>
+  </contact>
+  <contact id="3" color="brown">
+    <firstname>Eric</firstname>
+    <lastname>Cartman</lastname>
+    <emails>
+      <email type="perso">eric.cartman@gmail.com</email>
+    </emails>
+    <phones>
+      <phone>464-256</phone>
+    </phones>
+  </contact>
+
+</repertoire>

@@ -5,8 +5,6 @@
     <link rel="stylesheet" href="css/fonts.css" />
     <link rel="stylesheet" href="css/materialize.css" />
     <link rel="stylesheet" href="css/theme.css">
-    <script src="js/jquery.min.js"></script>
-    <script src="js/materialize.min.js"></script>
   </head>
   <body>
     <header>
