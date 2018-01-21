@@ -1,62 +1,12 @@
 /* --------------------------Fonts------------------------------*/
 
-@font-face {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  src: url('../fonts/Roboto/Roboto-Regular.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 700;
-  src: url('../fonts/Roboto/Roboto-Bold.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 100;
-  src: url('../fonts/Roboto/Roboto-Light.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'Roboto';
-  font-style: italic;
-  font-weight: 400;
-  src: url('../fonts/Roboto/Roboto-Italic.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'Roboto';
-  font-style: italic;
-  font-weight: 700;
-  src: url('../fonts/Roboto/Roboto-BoldItalic.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'Roboto Slab';
-  font-style: normal;
-  font-weight: 400;
-  src: url('../fonts/Roboto/RobotoSlab-Regular.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'Roboto Slab';
-  font-style: normal;
-  font-weight: 700;
-  src: url('../fonts/Roboto/RobotoSlab-Bold.ttf') format('truetype');
-}
-
-
 /* MATERIAL DESIGN */
 
 @font-face {
   font-family: 'Material Icons';
   font-style: normal;
   font-weight: 400;
-  src: url(../fonts/Material/Material.woff2) format('woff2');
+  src: url('../fonts/material/Material.woff2') format('woff2');
 }
 
 .material-icons {

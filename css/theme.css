@@ -5,3 +5,7 @@
   font-size: 15px;
   padding-top: 4px;
 }
+.round-button {
+  padding: 0px 8px;
+  border-radius: 100%;
+}
