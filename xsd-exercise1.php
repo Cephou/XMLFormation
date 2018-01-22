@@ -6,13 +6,18 @@
 <?php
 
 $dom = new DomDocument();
-$dom->load("xml/schema-exercise.xml");
+$dom->load("xml/xsd-exercise1.xml");
 
-if (!$dom->schemaValidate("schema/schema-exercise.xsd")) {
+if (!$dom->schemaValidate("schema/xsd-exercise1.xsd")) {
   echo "Not validated";
   return false;
 } else {
-  echo "Validated";
+  echo "Validated ! Well done.";
 }
 
 ?>
+
+</div>
+</div>
+
+<?php include('inc/footer.php'); ?>

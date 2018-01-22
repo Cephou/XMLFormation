@@ -52,31 +52,55 @@
 
   </div>
 
+  <hr />
+  <br />
+
   <div class="row">
-    <form class="col s12" action="addContact.php" method="post">
-      <div class="row">
-        <div class="input-field col s4">
-          <input placeholder="Placeholder" id="firstname" name="firstname" type="text" class="validate">
-          <label for="firstname">Firstname</label>
+    <div class="card grey lighten-4 col s12 m6 offset-m3">
+      <form class="no-margin" action="addContact.php" method="post">
+        <div class="card-content">
+          <span class="card-title grey-text text-darken-2 col s12">Create a contact</span><br /><br />
+          <div class="row no-margin">
+            <div class="input-field col s6">
+              <i class="material-icons prefix">perm_identity</i>
+              <input required placeholder="Kyle" id="firstname" name="firstname" type="text" class="validate">
+              <label for="firstname">Firstname</label>
+            </div>
+            <div class="input-field col s6">
+              <i class="material-icons prefix">people_outline</i>
+              <input required placeholder="Broflovski" id="lastname" name="lastname" type="text" class="validate">
+              <label for="lastname">Lastname</label>
+            </div>
+          </div>
+          <div class="row no-margin">
+            <div class="input-field col s6">
+              <i class="material-icons prefix">invert_colors</i>
+              <select name="color">
+                <option value="blue" selected>Blue</option>
+                <option value="green">Green</option>
+                <option value="brown">Brown</option>
+              </select>
+              <label>Color</label>
+            </div>
+            <div class="input-field col s6">
+              <i class="material-icons prefix">phone</i>
+              <input required type="text" name="phone" placeholder="6564-256">
+              <label for="phone">Phone</label>
+            </div>
+          </div>
+          <div class="row no-margin">
+            <div class="input-field col s12">
+              <i class="material-icons prefix">email</i>
+              <input required type="text" name="email" placeholder="kyle.broflovski@gmail.com">
+              <label for="email">Email</label>
+            </div>
+          </div>
         </div>
-        <div class="input-field col s4">
-          <input placeholder="Placeholder" id="lastname" name="lastname" type="text" class="validate">
-          <label for="lastname">Lastname</label>
+        <div class="card-action">
+          <button type="submit" name="addContact" class="btn center">Add contact</button>
         </div>
-      </div>
-      <div class="input-field col s4">
-        <select name="color">
-          <option value="" disabled selected>Choose your option</option>
-          <option value="blue">Blue</option>
-          <option value="green">Green</option>
-          <option value="brown">Brown</option>
-        </select>
-        <label>Couleur</label>
-      </div>
-      <div class="row">
-        <button type="submit" name="addContact" class="btn center">Ajouter</button>
-      </div>
-    </form>
+      </form>
+    </div>
   </div>
 
 </div>

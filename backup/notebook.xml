@@ -5,8 +5,8 @@
     <firstname>Stan</firstname>
     <lastname>Marsh</lastname>
     <emails>
-      <email type="pro">stan.marsh@etu.univ-southpark.com</email>
-      <email type="perso">stan.marsh@gmail.com</email>
+      <email>stan.marsh@etu.univ-southpark.com</email>
+      <email>stan.marsh@gmail.com</email>
     </emails>
     <phones>
       <phone>2564-256</phone>
@@ -16,7 +16,7 @@
     <firstname>Kenny</firstname>
     <lastname>McCormick</lastname>
     <emails>
-      <email type="perso">kenny.mccormick@gmail.com</email>
+      <email>kenny.mccormick@gmail.com</email>
     </emails>
     <phones>
       <phone>6564-256</phone>
@@ -26,7 +26,7 @@
     <firstname>Eric</firstname>
     <lastname>Cartman</lastname>
     <emails>
-      <email type="perso">eric.cartman@gmail.com</email>
+      <email>eric.cartman@gmail.com</email>
     </emails>
     <phones>
       <phone>464-256</phone>

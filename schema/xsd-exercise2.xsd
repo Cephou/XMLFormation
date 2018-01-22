@@ -3,6 +3,8 @@
 <!-- Elément racine -->
 <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 
+  <!-- Ecrivez un XSD qui permet de vérifier le code XML défini dans xml/xsd-exercise2.xml -->
+
   <!-- Rappels de syntaxe
 
     Elements simple : <xsd:element name="nom_de_l'élément_simple" type="xsd:type_de_l'élément_simple" />
@@ -17,14 +19,7 @@
     <xsd:complexType>
       <xsd:simpleContent>
         <xsd:extension base="xsd:string">
-          <xsd:attribute name="type">
-            <xsd:simpleType>
-              <xsd:restriction base="xsd:string">
-                <xsd:enumeration value="perso"/>
-                <xsd:enumeration value="pro"/>
-              </xsd:restriction>
-            </xsd:simpleType>
-          </xsd:attribute>
+          <xsd:attribute name="type" type="xsd:string"></xsd:attribute>
         </xsd:extension>
       </xsd:simpleContent>
     </xsd:complexType>
