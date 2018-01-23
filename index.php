@@ -17,11 +17,11 @@
 
   ?>
 
-    <div class="col s12 m4">
+    <div class="col s12 m6 l4">
       <div class="card">
        <div class="card-content white-text <?= $contact->getAttribute("color"); ?> darken-1">
          <span class="card-title">
-           <form action="actions/removeContact.php" method="POST">
+           <form action="removeContact.php" method="POST">
              <input type="hidden" name="id" value="<?= $contact->getAttribute("id"); ?>" />
              <button type="submit" onclick="return confirm('Are you sure to remove this contact?')" class="btn right red round-button" name="removeContact"><i class="material-icons">close</i></button>
            </form>
@@ -57,7 +57,7 @@
 
   <div class="row">
     <div class="card grey lighten-4 col s12 m6 offset-m3">
-      <form class="no-margin" action="actions/addContact.php" method="post">
+      <form class="no-margin" action="addContact.php" method="post">
         <div class="card-content">
           <span class="card-title grey-text text-darken-2 col s12">Create a contact</span><br /><br />
           <div class="row no-margin">
