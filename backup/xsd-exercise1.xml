@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+
+<!-- Ecrivez un code XML qui est conforme au schéma XSD défini dans schema/xsd-exercise1.xsd -->
+
+<!-- Le code ci dessous devra être retiré avant l'exercice -->
+
+<books xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="xsd-exercise1.xsd">
+
+  <book id="bk001">
+    <author>Writer</author>
+    <title>The First Book</title>
+    <genre>Fiction</genre>
+    <price>44.95</price>
+    <pub_date>2000-10-01</pub_date>
+    <review>An amazing story of nothing.</review>
+  </book>
+
+  <book id="bk002">
+    <author>Poet</author>
+    <title>The Poet's First Poem</title>
+    <genre>Poem</genre>
+    <price>24.95</price>
+    <pub_date>2010-03-05</pub_date>
+    <review>Least poetic poems.</review>
+  </book>
+
+</books>

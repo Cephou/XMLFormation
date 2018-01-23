@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+
+<repertoire xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="xsd-exercise2.xsd">
+
+  <contact>
+    <firstname>Stan</firstname>
+    <lastname>Marsh</lastname>
+    <emails>
+      <email type="pro">stan.marsh@etu.univ-southpark.com</email>
+      <email type="perso">stan.marsh@gmail.com</email>
+    </emails>
+  </contact>
+  <contact>
+    <firstname>Kenny</firstname>
+    <lastname>McCormick</lastname>
+    <emails>
+      <email type="pro">kenny.mccormick@gmail.com</email>
+      <email type="perso">kenny.mccormick@gmail.com</email>
+    </emails>
+  </contact>
+
+</repertoire>
