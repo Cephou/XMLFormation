@@ -1,33 +1,31 @@
 <!-- Ecrivez un code DTD qui -->
 
 <!-- Racine -->
-<!ELEMENT repertoire (personne*)>
+<!ELEMENT repertoire (contact*)>
 
 <!-- Personne -->
-<!ELEMENT personne (nom, prenom, adresse, telephones, emails)>
-<!ATTLIST personne sexe (masculin | feminin) #REQUIRED>
+<!ELEMENT contact (firstname, lastname, address, emails, phones)>
+<!ATTLIST contact sex (boy | girl) #REQUIRED>
 
-<!-- Nom et prénom -->
-<!ELEMENT nom (#PCDATA)>
-<!ELEMENT prenom (#PCDATA)>
+<!-- lastname et firstname -->
+<!ELEMENT firstname (#PCDATA)>
+<!ELEMENT lastname (#PCDATA)>
 
 <!-- Bloc adresse -->
-<!ELEMENT adresse (numero, voie, codePostal, ville, pays)>
-<!ELEMENT numero (#PCDATA)>
+<!ELEMENT address (number, street, postcode, city, country)>
 
-<!ELEMENT voie (#PCDATA)>
-<!ATTLIST voie type CDATA #REQUIRED>
+<!ELEMENT number (#PCDATA)>
+<!ELEMENT street (#PCDATA)>
+<!ATTLIST street type CDATA #REQUIRED>
+<!ELEMENT postcode (#PCDATA)>
+<!ELEMENT city (#PCDATA)>
+<!ELEMENT country (#PCDATA)>
 
-<!ELEMENT codePostal (#PCDATA)>
-<!ELEMENT ville (#PCDATA)>
-<!ELEMENT pays (#PCDATA)>
-
-<!-- Bloc téléphone -->
-<!ELEMENT telephones (telephone+)>
-<!ELEMENT telephone (#PCDATA)>
-<!ATTLIST telephone type CDATA #REQUIRED>
+<!-- Bloc phone -->
+<!ELEMENT phones (phone+)>
+<!ELEMENT phone (#PCDATA)>
+<!ATTLIST phone type CDATA #REQUIRED>
 
 <!-- Bloc email -->
 <!ELEMENT emails (email+)>
 <!ELEMENT email (#PCDATA)>
-<!ATTLIST email type CDATA #REQUIRED>
