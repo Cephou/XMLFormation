@@ -15,7 +15,7 @@
   // TODO : Ecrivez un code à l'aide de l'API DOM qui permet d'afficher pour chaque contact une carte
 
   /*
-
+  
     TEMPLATE D'UNE CARTE DE CONTACT
 
     <div class="col s12 m6 l4">
