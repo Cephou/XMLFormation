@@ -5,7 +5,7 @@
 
 <!-- Personne -->
 <!ELEMENT contact (firstname, lastname, address, emails, phones)>
-<!ATTLIST contact sex (boy | girl) #REQUIRED>
+<!ATTLIST contact sex (male | female) #REQUIRED>
 
 <!-- lastname et firstname -->
 <!ELEMENT firstname (#PCDATA)>
