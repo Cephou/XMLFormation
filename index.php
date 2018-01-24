@@ -12,6 +12,32 @@
 
   <?php
 
+  // TODO : Ecrivez un code à l'aide de l'API DOM qui permet d'afficher pour chaque contact une carte
+
+  /*
+
+    TEMPLATE D'UNE CARTE DE CONTACT
+
+    <div class="col s12 m6 l4">
+      <div class="card">
+        <div class="card-content white-text red darken-1">
+          <span class="card-title">
+              Prénom <b>Nom</b>
+          </span>
+        </div>
+        <div class="card-action">
+          <div class="valign-wrapper">
+            <i class="material-icons grey-text contact-icon">email</i> &nbsp;Email
+          </div>
+          <div class="valign-wrapper">
+            <i class="material-icons grey-text contact-icon">phone</i> &nbsp;Téléphone
+          </div>
+        </div>
+      </div>
+    </div>
+
+  */
+
   $contactList = $notebook->getElementsByTagName("contact");
   foreach($contactList as $contact) {
 

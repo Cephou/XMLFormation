@@ -13,6 +13,9 @@ $contactList = $notebook->getElementsByTagName("contact");
 $contactNumber = $contactList->length;
 $id = ($contactList->item($contactNumber-1) !== null) ? ($contactList->item($contactNumber-1)->getAttribute('id') + 1) : 1;
 
+// TODO : A l'aide des éléments récupérés ci dessus, écrivez le code d'ajout de contact.
+// Si vous voulez rétablir la version propre de xml/notebook.xml, le code est disponible dans le répertoire backup !
+
 // Contact
 $newContact = $notebook->createElement("contact");
 $newContact->setAttribute("id", $id);
@@ -65,6 +68,7 @@ $repertoire->appendChild($newContact);
 
 $notebook->save("xml/notebook.xml");
 
+// Redirection vers l'index
 header("Location: index.php");
 
 ?>

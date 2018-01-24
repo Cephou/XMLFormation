@@ -3,14 +3,7 @@
 <!-- Elément racine -->
 <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 
-  <!-- Ecrivez un XSD qui permet de vérifier le code XML défini dans xml/xsd-exercise2.xml -->
-
-  <!-- Rappels de syntaxe
-
-    Elements simple : <xsd:element name="nom_de_l'élément_simple" type="xsd:type_de_l'élément_simple" />
-    Elements 
-
-  -->
+  <!-- Ecrivez un code XSD qui permet de vérifier le code XML défini dans xml/xsd-exercise2.xml -->
 
   <!-- lE CODE CI DESSOUS DEVRA ÊTRE RETIRE POUR L'EXERCICE -->
 

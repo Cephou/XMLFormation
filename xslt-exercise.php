@@ -20,7 +20,7 @@
 
 	#PRINT
 	print $xslt->transformToXML( $XML );
-	?> 
+	?>
 
 
 	<!--
@@ -28,22 +28,22 @@
 		TEMPLATE D'UNE CARTE DE CONTACT
 
 		<div class="col s12 m6 l4">
-	      	<div class="card">
-	       		<div class="card-content white-text red darken-1">
-	         		<span class="card-title">
-	           			Prénom <b>Nom</b>
-	         		</span>
-	       		</div>
-	       		<div class="card-action">
-	         		<div class="valign-wrapper">
-	            		<i class="material-icons grey-text contact-icon">email</i> &nbsp;Email
-	          		</div>
-	          		<div class="valign-wrapper">
-	            		<i class="material-icons grey-text contact-icon">phone</i> &nbsp;Téléphone
-	          		</div>
-	       		</div>
-	      	</div>
-	    </div>
+    	<div class="card">
+     		<div class="card-content white-text red darken-1">
+       		<span class="card-title">
+         			Prénom <b>Nom</b>
+       		</span>
+     		</div>
+     		<div class="card-action">
+       		<div class="valign-wrapper">
+          		<i class="material-icons grey-text contact-icon">email</i> &nbsp;Email
+        		</div>
+      		<div class="valign-wrapper">
+        		<i class="material-icons grey-text contact-icon">phone</i> &nbsp;Téléphone
+      		</div>
+     		</div>
+    	</div>
+  	</div>
 
 	-->
 

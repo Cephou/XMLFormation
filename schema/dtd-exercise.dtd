@@ -1,3 +1,5 @@
+<!-- Ecrivez un code DTD qui -->
+
 <!-- Racine -->
 <!ELEMENT repertoire (personne*)>
 
