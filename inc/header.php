@@ -14,6 +14,7 @@
             <ul class="left hide-on-med-and-down">
               <li><a href="index.php"><i class="material-icons left">contacts</i>DOM</a></li>
               <li><a href="dtd-exercise.php"><i class="material-icons left">check_circle</i>DTD Validation</a></li>
+              <li><a href="xslt-exercise.php"><i class="material-icons left">check_circle</i>XSLT Transformation</a></li>
             </ul>
             <a href="index.php" class="brand-logo center">XML Formation</a>
             <ul class="right hide-on-med-and-down">

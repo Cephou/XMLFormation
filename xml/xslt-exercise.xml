@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+
+<?xml-stylesheet type="text/xsl" href="../schema/xslt-exercise.xslt" ?>
+
+<repertoire>
+
+      <contact id="1" color="red">
+        <firstname>Stan</firstname>
+        <lastname>Marsh</lastname>
+        <emails>
+          <email>stan.marsh@etu.univ-southpark.com</email>
+          <email>stan.marsh@gmail.com</email>
+        </emails>
+        <phones>
+          <phone type="fixe">2564-256</phone>
+        </phones>
+      </contact>
+      
+      <contact id="3" color="red">
+        <firstname>Eric</firstname>
+        <lastname>Cartman</lastname>
+        <emails>
+          <email>eric.cartman@gmail.com</email>
+        </emails>
+        <phones>
+          <phone type="portable">464-256</phone>
+        </phones>
+      </contact>
+
+</repertoire>
