@@ -10,10 +10,9 @@
         <lastname>Marsh</lastname>
         <address>
             <number>7</number>
-            <street type="impasse">impasse du chemin</street>
+            <street>impasse du chemin</street>
             <postcode>75000</postcode>
             <city>Paris</city>
-            <country>France</country>
         </address>
         <emails>
           <email>stan.marsh@etu.univ-southpark.com</email>
@@ -29,10 +28,9 @@
         <lastname>Cartman</lastname>
         <address>
             <number>28</number>
-            <street type="impasse">avenue de la république</street>
+            <street>avenue de la république</street>
             <postcode>86000</postcode>
             <city>Poitiers</city>
-            <country>France</country>
         </address>
         <emails>
           <email>eric.cartman@gmail.com</email>

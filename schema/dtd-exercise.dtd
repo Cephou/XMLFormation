@@ -1,5 +1,3 @@
-<!-- Ecrivez un code DTD qui -->
-
 <!-- Racine -->
 <!ELEMENT repertoire (contact*)>
 
@@ -12,14 +10,12 @@
 <!ELEMENT lastname (#PCDATA)>
 
 <!-- Bloc adresse -->
-<!ELEMENT address (number, street, postcode, city, country)>
+<!ELEMENT address (number, street, postcode, city)>
 
 <!ELEMENT number (#PCDATA)>
 <!ELEMENT street (#PCDATA)>
-<!ATTLIST street type CDATA #REQUIRED>
 <!ELEMENT postcode (#PCDATA)>
 <!ELEMENT city (#PCDATA)>
-<!ELEMENT country (#PCDATA)>
 
 <!-- Bloc phone -->
 <!ELEMENT phones (phone+)>
